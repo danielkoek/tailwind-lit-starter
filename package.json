@@ -1,0 +1,42 @@
+{
+  "name": "tailwind-lit-starter",
+  "version": "1.0.0",
+  "description": "A starter pack for tailwind and lit-element",
+  "main": "index.html",
+  "scripts": {
+    "quick-start": "node ./build-tools/qbs src/ https://localhost/template/",
+    "qbs": "npm run quick-build && npm run quick-start",
+    "quick-build": "npm run tailwind:dev && snowpack --dest src/js/web_modules",
+    "tailwind:dev": "node ./build-tools/tailwind-to-lit",
+    "tailwind": "node ./build-tools/tailwind-to-lit -prod"
+  },
+  "snowpack": {
+    "webDependencies": [
+      "lit-element"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielkoek/tailwind-lit-starter.git"
+  },
+  "keywords": [
+    "starter",
+    "tailwind",
+    "lit-element"
+  ],
+  "author": "Daniël Koek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielkoek/tailwind-lit-starter/issues"
+  },
+  "homepage": "https://github.com/danielkoek/tailwind-lit-starter#readme",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "autoprefixer": "^9.7.4",
+    "cssnano": "^4.1.10",
+    "lit-element": "^2.2.1",
+    "postcss": "^7.0.27",
+    "snowpack": "^1.5.2",
+    "tailwindcss": "^1.2.0"
+  }
+}

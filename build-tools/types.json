@@ -1,0 +1,9 @@
+{
+    "application/json": ["json", "map"],
+    "text/html": ["html", "htm", "shtml"],
+    "text/css": ["css"],
+    "application/javascript": ["js", "mjs"],
+    "image/svg+xml": ["svg", "svgz"],
+    "application/font-woff": [],
+    "application/font-woff2": []
+}

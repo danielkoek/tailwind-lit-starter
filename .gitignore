@@ -1,0 +1,9 @@
+### development artifacts ###
+node_modules
+web_modules
+
+
+#tailwind and web-modules
+tailwind.js
+tailwind.build.css
+tailwind.amp.css
