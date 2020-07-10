@@ -31,12 +31,15 @@
   },
   "homepage": "https://github.com/danielkoek/tailwind-lit-starter#readme",
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^2.1.0",
-    "autoprefixer": "^9.7.4",
+    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "autoprefixer": "^9.8.4",
     "cssnano": "^4.1.10",
-    "lit-element": "^2.2.1",
-    "postcss": "^7.0.27",
-    "snowpack": "^1.5.2",
-    "tailwindcss": "^1.2.0"
+    "lit-element": "^2.3.1",
+    "postcss": "^7.0.32",
+    "snowpack": "^2.6.4",
+    "tailwindcss": "^1.4.6"
+  },
+  "dependencies": {
+    "npm-check-updates": "^7.0.1"
   }
 }
