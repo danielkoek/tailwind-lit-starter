@@ -35,7 +35,7 @@
     "autoprefixer": "^9.8.4",
     "cssnano": "^4.1.10",
     "lit-element": "^2.3.1",
-    "postcss": "^7.0.32",
+    "postcss": "^7.0.36",
     "snowpack": "^2.6.4",
     "tailwindcss": "^1.4.6"
   },
